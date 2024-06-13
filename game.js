@@ -9,15 +9,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Charger les images
     const barreHautImg = new Image();
-    barreHautImg.src = 'images/barre_haut.png';
+    barreHautImg.src = 'barre_haut.png';
     const boutonEchapImg = new Image();
-    boutonEchapImg.src = 'images/bouton_echap.png';
+    boutonEchapImg.src = 'bouton_echap.png';
     const fondImg = new Image();
-    fondImg.src = 'images/fond.png';
+    fondImg.src = 'fond.png';
     const extImg = new Image();
-    extImg.src = 'images/ext.png';
+    extImg.src = 'ext.png';
     const trucAmeliorerImg = new Image();
-    trucAmeliorerImg.src = 'images/truc_ameliorer.png';
+    trucAmeliorerImg.src = 'truc_ameliorer.png';
 
     // Variables du jeu
     let coins = 0;
@@ -86,3 +86,4 @@ document.addEventListener('DOMContentLoaded', () => {
     updateCoinsDisplay();
     gameLoop();
 });
+
